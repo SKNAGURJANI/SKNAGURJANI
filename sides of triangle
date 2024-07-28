@@ -1,0 +1,7 @@
+a=int(input("enter the length of a"))
+b=int(input("enter the length of b"))
+c=int(input("enter the length of c"))
+if (a+b>c and a+c>b and b+c>a):
+    print("Yes")
+else:
+    print("No")
